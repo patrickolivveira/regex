@@ -46,12 +46,13 @@ Pattern 1: \d{3}\.\d{3}\.\d{3}-\d{2}
 Pattern 2: \d{3}\.?\d{3}\.?\d{3}[.-]?\d{2}
 ```
 
+* **Pattern 1:** Considera apenas a formatação padrão XXX.XXX.XXX-XX
+* **Pattern 2:** Aceita outras formatações, como: XXX.XXX.XXX.XX, XXXXXXXXXXX, XXXXXXXXX-XX
+
+
 ### Extrair data por extenso:
 
 ```sh
 Pattern: [0123]?\d\s+de\s+[A-Z][a-zç]{1,8}\s+de\s+[12]\d{3}
 ```
-
-* **Pattern 1:** Considera apenas a formatação padrão XXX.XXX.XXX-XX
-* **Pattern 2:** Aceita outras formatações, como: XXX.XXX.XXX.XX, XXXXXXXXXXX, XXXXXXXXX-XX
  
