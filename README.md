@@ -82,3 +82,18 @@ Pattern 2: \d{3}\.?\d{3}\.?\d{3}[.-]?\d{2}
 Pattern: [0123]?\d\s+de\s+[A-Z][a-zç]{1,8}\s+de\s+[12]\d{3}
 ```
  
+### Extrair palavra especifica de uma string:
+
+```sh
+Pattern: \bde\b
+```
+
+### Extrair link começando com http e terminando com .html:
+
+```sh
+Target: http://patrickoliveira.me/index.html
+```
+
+```sh
+Pattern: ^http.+\.html
+```
