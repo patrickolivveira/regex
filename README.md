@@ -48,6 +48,14 @@ Para acessar a página clique [aqui.](https://patrickoliveira94.github.io/regex/
 [abc] significa a, b ou c.
 ```
 
+```sh
+\s whitespace (espaço em branco, tab...)
+```
+
+```sh
+\w wordchar (qualquer letra maiúscula ou minúscula ou número)
+```
+
 ## Exemplos de expressões regulares
 
 ```sh
