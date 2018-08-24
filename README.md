@@ -4,7 +4,7 @@ Projeto para testes de expressões regulares
 
 Para acessar a página clique [aqui.](https://patrickoliveira94.github.io/regex/)
 
-## Quantifiers
+## Quantifiers (Quantificadores)
 
 ```sh 
 ? zero ou uma vez.
@@ -28,6 +28,24 @@ Para acessar a página clique [aqui.](https://patrickoliveira94.github.io/regex/
 
 ```sh 
 {n,m} no mínimo n vezes, no máximo m vezes.
+```
+
+## Character Classes (Classes de caracteres)
+
+```sh 
+[A-Z] significa de A até Z, sempre maiúscula.
+```
+
+```sh 
+[a-z] significa de a até z, sempre minúscula,
+```
+
+```sh 
+[A-Za-z] significa A-Z ou a-z.
+```
+
+```sh 
+[abc] significa a, b ou c.
 ```
 
 ## Exemplos de expressões regulares
