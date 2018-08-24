@@ -125,3 +125,13 @@ Target: http://patrickoliveira.me/index.html
 ```sh
 Pattern: ^http.+\.html$
 ```
+
+### Selecionar texto de um h1 com grupos:
+
+```sh
+Target: <h1 class="text-left">Expressões regulares</h1>
+```
+
+```sh
+Pattern: <h1.+?>([\w\sõãí.]+)</h1>
+```
