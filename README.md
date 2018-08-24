@@ -109,5 +109,5 @@ Target: http://patrickoliveira.me/index.html
 ```
 
 ```sh
-Pattern: ^http.+\.html
+Pattern: ^http.+\.html$
 ```
