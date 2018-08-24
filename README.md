@@ -56,6 +56,20 @@ Para acessar a página clique [aqui.](https://patrickoliveira94.github.io/regex/
 \w wordchar (qualquer letra maiúscula ou minúscula ou número)
 ```
 
+## Anchors (Âncoras) - Principais, mais usadas
+
+```sh
+\b word boundary
+```
+
+```sh
+^ início do alvo
+```
+
+```sh
+$ fim do alvo
+```
+
 ## Exemplos de expressões regulares
 
 ```sh
