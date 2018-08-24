@@ -56,7 +56,7 @@ Para acessar a página clique [aqui.](https://patrickoliveira94.github.io/regex/
 \w wordchar (qualquer letra maiúscula ou minúscula ou número)
 ```
 
-## Anchors (Âncoras) - Principais, mais usadas
+## Anchors (Âncoras) - Principais, mais usadas:
 
 ```sh
 \b word boundary
@@ -68,6 +68,20 @@ Para acessar a página clique [aqui.](https://patrickoliveira94.github.io/regex/
 
 ```sh
 $ fim do alvo
+```
+
+## Groups (Grupos):
+
+```sh
+(\w+) grupo de word chars
+```
+
+```sh
+(\w+)? grupo opcional
+```
+
+```sh
+(?:\w+) non-capturing group
 ```
 
 ## Exemplos de expressões regulares
